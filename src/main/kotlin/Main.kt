@@ -12,7 +12,13 @@ fun main(args: Array<String>) {
 //    program.Start()
 
     //Practice 4
-    val newSong = SongCatalog("good song","Artist",2001,1300)
-    newSong.printDescription()
-    println(newSong.isPopular)
+//    val newSong = SongCatalog("good song","Artist",2001,1300)
+//    newSong.printDescription()
+//    println(newSong.isPopular)
+
+    //Practice 5
+    val amanda = Person("Amanda", 33, "play tennis", null)
+    val atiqah = Person("Atiqah", 28, "climb", amanda)
+    amanda.showProfile()
+    atiqah.showProfile()
 }
