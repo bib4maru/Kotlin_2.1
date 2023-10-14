@@ -3,4 +3,7 @@ fun main(args: Array<String>) {
 //    val program = MobileNotifications()
 //    program.Start()
 
+    //Practice 2
+//    val program = MovieTicketPrice()
+//    program.Start()
 }
