@@ -17,8 +17,16 @@ fun main(args: Array<String>) {
 //    println(newSong.isPopular)
 
     //Practice 5
-    val amanda = Person("Amanda", 33, "play tennis", null)
-    val atiqah = Person("Atiqah", 28, "climb", amanda)
-    amanda.showProfile()
-    atiqah.showProfile()
+//    val amanda = Person("Amanda", 33, "play tennis", null)
+//    val atiqah = Person("Atiqah", 28, "climb", amanda)
+//    amanda.showProfile()
+//    atiqah.showProfile()
+
+    //Practice 6
+    val newFoldablePhone = FoldablePhone()
+    newFoldablePhone.switchOn()
+    newFoldablePhone.checkPhoneScreenLight()
+    newFoldablePhone.unfold()
+    newFoldablePhone.switchOn()
+    newFoldablePhone.checkPhoneScreenLight()
 }
